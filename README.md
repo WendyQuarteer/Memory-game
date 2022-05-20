@@ -29,7 +29,10 @@ We want to recreate the game memory. It is a game where you have a bunch of card
 - [x] CSS: make body display as a flex-box
 - [x] CSS: make main margin auto to center the page & min-height = 100vh (size of the screen)
   (vh= 100% of the available height.)
-- 
+- [x] JS: prepare variables for the cards, so we can use them
+- [x] JS: make a string of the cards
+- [x] JS: make a function for the computer to shuffle the cards
+- [] JS: make a function for the cards, so it turns when clicked, and turns back when 2 different ones are turned.
 - []Make them turn on click
 - []Make their order random using javascript
 - []Turn them back around if you clicked two

@@ -5,12 +5,11 @@
     <link rel="stylesheet" href="style.css">
     <title>Memory Game</title>
 
-
 </head>
 <body>
 <main>
     <div class="title">
-    <header><h1>Memory game</h1></header>
+        <header><h1>Memory game</h1></header>
     </div>
 
     <div class="explain">
@@ -21,40 +20,44 @@
         </p>
     </div>
     <div class="table">
-        <table>
-            <tr>
-                <td>
-                    <div>
-                        <a>
-                            <img src="pics/Goku.jpg" id="goku" alt="Goku" title="Goku">
-                        </a>
-                    </div>
-                </td>
-                <td>
-                    <div>
-                        <a>
-                            <img src="pics/luffy.jpg" id="luffy" alt="Luffy" title="Luffy">
-                        </a>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div>
-                        <a>
-                            <img src="pics/luffy.jpg" id="luffy" alt="Luffy" title="Luffy" >
-                        </a>
-                    </div>
-                </td>
-                <td>
-                    <div>
-                        <a>
-                            <img src="pics/Goku.jpg" id="goku" alt="Goku" title="Goku">
-                        </a>
-                    </div>
-                </td>
-            </tr>
-        </table>
+
+        <div id="one">
+            <div class="card-front">
+                <img src="pics/luffy.jpg" alt="card">
+            </div>
+            <div class="card-back">
+                <img src="pics/manga.png" alt="card-back">
+            </div>
+        </div>
+        <div id="two">
+            <div class="card-front">
+                <img src="pics/luffy.jpg" alt="card">
+            </div>
+            <div class="card-back">
+                <img src="pics/manga.png" alt="card-back">
+            </div>
+        </div>
+
+        <div id="tree">
+            <div class="card-front">
+                <img src="pics/Goku.jpg" alt="card">
+            </div>
+            <div class="card-back">
+                <img src="pics/manga.png" alt="card-back">
+            </div>
+        </div>
+
+        <div id="four">
+            <div class="card-front">
+                <img src="pics/Goku.jpg" alt="card">
+            </div>
+            <div class="card-back">
+                <img src="pics/manga.png" alt="card-back">
+            </div>
+        </div>
+    </div>
+    <div>
+        <button id="shuffle" type="button">Shuffle!</button>
     </div>
 
 </main>
