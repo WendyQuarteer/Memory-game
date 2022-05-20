@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    background-color: forestgreen;
+}
+main {
+    margin: auto;
+    /*to center all content*/
+    min-height: 100vh;
+    /*exact height screen*/
+}
+.title{
+    width: 470px;
+    text-align: center;
+}
+.explain{
+    width: 470px;
+}
+table{
+    display: flex;
+    position: relative;
+    top: 50px;
+}
+#luffy{
+    width: 220px;
+    height: auto;
+    margin: 2px;
+}
+#goku{
+    width: 220px;
+    height: auto;
+    margin: 2px;
+}
