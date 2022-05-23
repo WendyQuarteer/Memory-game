@@ -15,23 +15,43 @@ main {
 .explain{
     width: 470px;
 }
-.table{
+#game{
     display: flex;
     position: relative;
-    top: 50px;
+    top: -100px;
 }
 img{
     width: 220px;
     height: auto;
     margin: 2px;
+    cursor: pointer;
 }
+.card-back {
+    position: absolute;
+    backface-visibility: hidden;
+    transition: transform 1s cubic-bezier(0.4, 0.0, 0.2, 1);
+    transform-style: preserve-3d;
 
+}
+.card-front {
+    backface-visibility: hidden;
+    transition: transform 1s cubic-bezier(0.4, 0.0, 0.2, 1);
+    transform-style: preserve-3d;
+    transform: rotateY(180deg) rotateZ(50deg);
+}
+.flip .card-front {
+    transform: rotate(180deg) rotateZ(50deg);
+}
+.flip .card-back {
+    transform: rotateY(0) rotateZ(0);
+
+}
 #shuffle{
     background-color: greenyellow;
     border: 2px outset blue;
     text-align: center;
     position: relative;
-    top: 80px;
+    top: 140px;
     width: 100px;
     height: 50px;
     margin-bottom: 140px;
